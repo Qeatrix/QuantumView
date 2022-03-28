@@ -1,0 +1,140 @@
+:root {
+  --small-button-radius: 8px;
+  --urlbar-icon-border-radius: 10px;
+  --arrowpanel-border-radius: 20px;
+}
+
+.tab-background {
+  margin-top: 15px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) {
+  box-shadow: none;
+  background-color: #f9f9fb;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  animation: tab_shadow .5s 1 cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes tab_shadow {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0px 0px 30px -15px rgba(34, 60, 80, 0.55);
+  }
+}
+
+.tab-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#nav-bar:not([tabs-hidden="true"]) {
+  box-shadow: 0px 0px 30px -15px rgba(34, 60, 80, 0.55);
+  position: relative;
+}
+
+#urlbar-background, #searchbar {
+  border: none;
+  border-radius: 10px;
+}
+
+#urlbar, #searchbar {
+  font-size: 1.1em;
+}
+
+#navigator-toolbox {
+  border-bottom: none;
+}
+
+.tab-close-button.close-icon {
+  border-radius: var(--small-button-radius);
+}
+
+#tracking-protection-icon-container {
+  border-radius: var(--small-button-radius);
+}
+
+#identity-icon-box {
+  border-radius: var(--small-button-radius);
+}
+
+#urlbar .searchbar-engine-one-off-item {
+  min-width: 28px;
+  height: 28px;
+  margin-inline: 0 12px;
+  border-radius: var(--small-button-radius);
+}
+
+.urlbar-page-action, #urlbar-go-button, .search-go-button {
+  border-radius: var(--small-button-radius);
+}
+
+#urlbar[open] > .urlbarView > .urlbarView-body-outer > .urlbarView-body-inner {
+  border-top: none;
+}
+
+.urlbarView-row-inner {
+  border-radius: var(--small-button-radius);
+}
+
+#urlbar-engine-one-off-item-history {
+  left: calc(100% - 395px);
+  position: relative;
+}
+
+#urlbar-engine-one-off-item-tabs {
+  left: calc(100% - 393px);
+  position: relative;
+}
+
+#urlbar-engine-one-off-item-bookmarks {
+  left: calc(100% - 393px);
+  position: relative;
+}
+
+toolbar .toolbarbutton-1 > .toolbarbutton-icon, toolbar .toolbarbutton-1 > .toolbarbutton-text, toolbar .toolbarbutton-1 > .toolbarbutton-badge-stack {
+  border-radius: var(--small-button-radius);
+}
+
+#PlacesToolbar menuitem, #PlacesToolbar menu, .subview-subheader, panelview .toolbarbutton-1, .subviewbutton, .widget-overflow-list .toolbarbutton-1 {
+  border-radius: var(--small-button-radius);
+}
+
+.PanelUI-subView menuseparator, #PlacesToolbar menupopup[placespopup="true"] toolbarseparator, #widget-overflow-mainView > toolbarseparator, #widget-overflow-mainView > .panel-subview-body > toolbarseparator, .PanelUI-subView toolbarseparator, #permission-popup-mainView > toolbarseparator, #protections-popup-multiView toolbarseparator, #identity-popup-mainView toolbarseparator, #identity-popup-securityView > toolbarseparator, #editBookmarkPanel toolbarseparator, #downloadsFooterButtons > toolbarseparator, .cui-widget-panelview menuseparator, .cui-widget-panel toolbarseparator {
+  border-top: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
