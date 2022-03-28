@@ -1,9 +1,5 @@
-* {
-	/*transition: all 0.4s cubic-bezier(0.18, 0.87, 0.54, 1.03); */
-}
-
 :root {
-	--small-button-radius: 8px;
+    --small-button-radius: 8px;
     --tab-min-height:  28px !important;
     --tabs-shadow-size: 0px !important;
     --tab-border-radius: 8.5px !important;
