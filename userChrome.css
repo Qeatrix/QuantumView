@@ -126,9 +126,17 @@ button {
 }
 
 .identity-box-button {
-	border-radius: 8px;
+	border-radius: var(--small-button-radius) !important;
 }
 
 #notification-popup-box {
+	border-radius: var(--small-button-radius) !important;
+}
+
+#protections-popup-info-button {
+	border-radius: var(--small-button-radius) !important;
+}
+
+#identity-permission-box {
 	border-radius: var(--small-button-radius) !important;
 }
