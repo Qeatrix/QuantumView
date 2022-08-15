@@ -1,5 +1,5 @@
 # QuantumView
-<p align="center">The new simple and modern look of Firefox</p>
+<p align="center">The new simple and modern look for Firefox</p>
 
 ![image](images/QuantumPack01.png)
 
